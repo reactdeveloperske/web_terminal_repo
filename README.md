@@ -87,7 +87,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
-- [xterm.js](https://xtermjs.org/) (if used)
-- All contributors
+
 
 ---
