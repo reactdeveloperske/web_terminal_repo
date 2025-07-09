@@ -1,12 +1,93 @@
-# React + Vite
+# WebTerminal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WebTerminal is a modern web-based terminal emulator built with React and Vite. It provides a responsive, interactive shell-like experience directly in your browser, making it ideal for demos, education, and remote command execution interfaces.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast and lightweight React + Vite setup
+- Hot Module Replacement (HMR) for rapid development
+- Customizable terminal appearance and behavior
+- Extensible command system
+- Keyboard navigation and accessibility support
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/webterminal.git
+cd webterminal
+npm install
+# or
+yarn install
+```
+
+### Running the Development Server
+
+Start the local development server with hot reloading:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+### Building for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The output will be in the `dist` directory.
+
+### Previewing the Production Build
+
+You can preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Project Structure
+
+- `src/` - Main source code (components, styles, logic)
+- `public/` - Static assets
+- `dist/` - Production build output
+
+## Contributing
+
+Contributions are welcome! Please open issues and pull requests for bug fixes, features, or improvements.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [xterm.js](https://xtermjs.org/) (if used)
+- All contributors
+
+---
